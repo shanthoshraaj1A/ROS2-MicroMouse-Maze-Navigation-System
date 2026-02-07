@@ -146,5 +146,4 @@ https://drive.google.com/file/d/1qJNXqxFNxQhxqZwh_O8d0edNBkET3x_T/view?usp=shari
 <img width="1480" height="706" alt="interface micromouse" src="https://github.com/user-attachments/assets/23ca502b-5a07-4062-801d-0146089389a5" />
 
 # Link repo and full video
-[https://github.com/Jomaxdrill/ROS_micromouse
-https://drive.google.com/file/d/1QajbZrw-nqpsIN849IGWhvffBWKnriuF/view?usp=sharing](https://drive.google.com/file/d/1qJNXqxFNxQhxqZwh_O8d0edNBkET3x_T/view?usp=sharing)
+https://drive.google.com/file/d/1qJNXqxFNxQhxqZwh_O8d0edNBkET3x_T/view?usp=drive_link
