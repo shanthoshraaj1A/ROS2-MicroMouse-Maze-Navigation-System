@@ -1,0 +1,26 @@
+# =============================================================================
+# GetRobotStatus.srv
+# Service for querying the current state of the MicroMouse robot
+# =============================================================================
+
+# ---- CONSTANTS for Direction ----
+# String representations of robot facing direction
+string DIRECTION_NORTH = "NORTH"
+string DIRECTION_EAST = "EAST"
+string DIRECTION_SOUTH = "SOUTH"
+string DIRECTION_WEST = "WEST"
+
+# ---- REQUEST ----
+# No request parameters needed - this is a status query
+---
+# ---- RESPONSE ----
+# Complete snapshot of robot state at the time of the request
+int32 position_x            # Current X coordinate (column)
+int32 position_y            # Current Y coordinate (row)
+string direction            # Facing direction (use DIRECTION_* constants)
+int32 steps_taken           # Number of moves made so far
+int32 steps_to_goal_estimate # Manhattan distance to goal (|dx| + |dy|)
+float64 elapsed_seconds     # Time since navigation started
+bool is_running             # True if navigation is in progress
+bool success                # True if goal has been reached
+string message              # Status message or error description

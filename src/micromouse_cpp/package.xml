@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>micromouse_cpp</name>
+  <version>1.0.0</version>
+  <description>
+    MicroMouse maze navigation using ROS2 Topics, Services, Actions, and Parameters.
+    C++ implementation demonstrating ROS2 communication patterns.
+  </description>
+  <maintainer email="Chris.g.collins1991@gmail.com">Chris Collins</maintainer>
+  <maintainer email="jcrespo@umd.edu">Jonathan Crespo</maintainer>
+  <maintainer email="ljannich@umd.edu">Lucas Janniche</maintainer>
+  <maintainer email="sandy1@umd.edu">Shanthosh Raaj Mohanram Mageswari</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>rclcpp_action</depend>
+  <depend>std_msgs</depend>
+  <depend>std_srvs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>micromouse_interfaces</depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

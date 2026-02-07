@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>micromouse_interfaces</name>
+  <version>0.0.0</version>
+  <description>Custom Action and Service Interfaces for NavigateToGoal.action and GetRobotStatus.srv</description>
+  <maintainer email="Chris.g.collins1991@gmail.com">Chris Collins</maintainer>
+  <maintainer email="jcrespo@umd.edu">Jonathan Crespo</maintainer>
+  <maintainer email="ljannich@umd.edu">Lucas Janniche</maintainer>
+  <maintainer email="sandy1@umd.edu">Shanthosh Raaj Mohanram Mageswari</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <buildtool_depend>rosidl_default_generators</buildtool_depend>
+  <exec_depend>rosidl_default_runtime</exec_depend>
+  <member_of_group>rosidl_interface_packages</member_of_group>
+
+  
+
+  <depend>std_msgs</depend>
+  <depend>action_msgs</depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

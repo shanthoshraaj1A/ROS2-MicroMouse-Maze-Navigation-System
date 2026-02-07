@@ -1,0 +1,7 @@
+micromouse_cpp:
+  ros__parameters:
+    goal_x: 7
+    goal_y: 7
+    path_color: 'c'
+    goal_color: 'g'
+    standalone_mode: false

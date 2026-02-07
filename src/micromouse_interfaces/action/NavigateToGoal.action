@@ -1,0 +1,30 @@
+# =============================================================================
+# NavigateToGoal.action
+# Action for navigating the MicroMouse robot to a goal cell in the maze
+# =============================================================================
+
+# ---- CONSTANTS for Direction ----
+# These constants define the robot's facing direction
+uint8 DIRECTION_NORTH = 0
+uint8 DIRECTION_EAST  = 1
+uint8 DIRECTION_SOUTH = 2
+uint8 DIRECTION_WEST  = 3
+
+# ---- GOAL ----
+# The target cell coordinates in the maze (0-indexed)
+int32 goal_x    # X coordinate of target cell (column, 0 = leftmost)
+int32 goal_y    # Y coordinate of target cell (row, 0 = bottom)
+---
+# ---- RESULT ----
+# Final outcome of the navigation attempt
+bool success        # True if goal was reached, False otherwise
+int32 total_steps   # Total number of cells traversed during navigation
+float64 total_time  # Total elapsed time in seconds
+string message      # Human-readable status message (e.g., "Goal reached!", "No path found")
+---
+# ---- FEEDBACK ----
+# Real-time updates during navigation (published after each move)
+int32 current_x         # Robot's current X coordinate
+int32 current_y         # Robot's current Y coordinate
+uint8 direction         # Robot's facing direction (use DIRECTION_* constants)
+float64 elapsed_seconds # Time elapsed since navigation started
