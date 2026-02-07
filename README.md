@@ -1,11 +1,6 @@
 # Overview
 ROS2 communication patterns for Micromouse Robot Navigation System in maze exploration done in C++ as Final Group Assigment for ENPM702 Introduction to Robot programming.
 
-# Team Members ENPM702 Group 5
-- Shanthosh Raaj Mohanram Mageswari
-- Chris Collins
-- Jonathan Crespo
-- Lucas Janniche
 # How the Program Works
 ROS2 is used to broadcast the commands for the simulation maze that behind integrates a Wall-Aware DFS replanning algorithm for the micromouse. This can be called automatically on run or via an action request.
 
