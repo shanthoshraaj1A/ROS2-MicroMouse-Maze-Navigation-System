@@ -135,8 +135,7 @@ https://github.com/user-attachments/assets/6ea86340-5557-4bd7-abdc-991e4c11324b
 
 
 ## Full Demo Video:
-[[micro_mouse_demo.webm](https://github.com/user-attachments/assets/59d1eda4-e147-42b5-b2e3-a7c0e3d52128)
-](https://drive.google.com/file/d/1qJNXqxFNxQhxqZwh_O8d0edNBkET3x_T/view?usp=sharing)
+https://drive.google.com/file/d/1qJNXqxFNxQhxqZwh_O8d0edNBkET3x_T/view?usp=sharing
 
 ## Check the node, service, action, interfaces 
 
